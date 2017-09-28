@@ -1,3 +1,6 @@
 1.Yao et-al:
 1)the last fully-connected layer can be used as a fixed-size vector representation,or the feature map of the last convolutional layer can be used as a set of spatial feature vectors.
-2)
+2)Srivastava et al.propose to use LSTM to extract video features.Ranzato also use RNN to do that.so RNN can do that work too.
+
+2.Venugopalan-2015:
+1)the 
