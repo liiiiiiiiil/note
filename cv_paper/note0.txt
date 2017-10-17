@@ -2,5 +2,7 @@
 1)the last fully-connected layer can be used as a fixed-size vector representation,or the feature map of the last convolutional layer can be used as a set of spatial feature vectors.
 2)Srivastava et al.propose to use LSTM to extract video features.Ranzato also use RNN to do that.so RNN can do that work too.
 
-2.Venugopalan-2015:
-1)the 
+2.Venugopalan-Improving LSTM-based ...:
+1)this paper use the external corpora to incorporate with the traslation model.
+2)有大概三种方法将这两种model结合在一起，分别是：early fusion,late fusion,deep fusion.
+3)这篇论文引用了Gulcehre2015年的方法，他们不同的地方是，在使用deep fusion 方法的时候，去掉了Attention机制.

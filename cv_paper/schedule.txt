@@ -1,3 +1,8 @@
-1.gulcehre et al 2015(简单读)
+1.read the paper of Sennrich et al 2016
+2.print the paper witch cited the gulcehre
+
+
+
+
 2.read the paper of Ranzato and Srivastava who use the RNN to extract2.read the paper of Ranzato and Srivastava who use the RNN to extract the feature.
 3.read the papaer of PaperWeekly
