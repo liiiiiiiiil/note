@@ -1,8 +1,6 @@
-1.read the paper of Sennrich et al 2016
-2.print the paper witch cited the gulcehre
+寻找有没有与我的想法想象的论文
+
+平时有时间学习斯坦福自然语言处理的课程
 
 
 
-
-2.read the paper of Ranzato and Srivastava who use the RNN to extract2.read the paper of Ranzato and Srivastava who use the RNN to extract the feature.
-3.read the papaer of PaperWeekly
