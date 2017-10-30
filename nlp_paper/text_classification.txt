@@ -6,4 +6,12 @@ Amazon Review Sentiment Analysis：文本是顾客给商品的评论，label是�
 Yahoo!Answers Topic:一个类似与知乎问答模式的的文本数据库，数量大，分类比较不错，如Society&Culture，Health，Education，Sporst等等
 News Categorization in English：新闻分类数据库，分类有World，sports，Business，Tec等等
 
+LSHTC:A benchmark for large-scale text classification
+1)本文介绍了一个新的文本分类数据库，LSHTC。
+2)DMOZ：一个很大的web repository，超过1M的categories。
+3)BioASQ：a large-scale biomedical semantic indexing and question answering .
+4)两大文本数据来源，维基百科和ODP web（www.dmoz.org)
+5)这个数据库可以下载，分类齐全可以考虑。
 
+xiang zhang:Character-level convolutional networks for text classification.
+1)Ag's News corpus 可以考虑。
