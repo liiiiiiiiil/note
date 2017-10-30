@@ -1,0 +1,9 @@
+Xiang Zhang:Text Understanding from scratch
+1)使用characters 代替 words可以减小矩阵维度。
+2)几个文本分类数据库：
+DBpedia:分类比较大少，范围大，比如Company，Artist，Plant，Film等等.
+Amazon Review Sentiment Analysis：文本是顾客给商品的评论，label是打的星数。
+Yahoo!Answers Topic:一个类似与知乎问答模式的的文本数据库，数量大，分类比较不错，如Society&Culture，Health，Education，Sporst等等
+News Categorization in English：新闻分类数据库，分类有World，sports，Business，Tec等等
+
+
