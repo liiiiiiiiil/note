@@ -1,0 +1,3 @@
+Jeffrey:Glove-Global Vectors for Word Representation
+1)首先介绍了两种常用的embedding思想
+2)它的方法的核心在于，在一个大的语料库中，dog的上下文中animal出现的多，而plant出现的少，所以其概率的比值就大于1，而pen和ruler都没什么关系，所以其概率比值近乎于1

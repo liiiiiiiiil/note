@@ -1,0 +1,2 @@
+train the modle,at the same time,find the text cupora,and processes the data.
+
