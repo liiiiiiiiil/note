@@ -1,1 +1,2 @@
 可以用activitynet和activity caption
+可以使用文本处理中的处理歧义的方法来试着解决视频中的歧义问题.

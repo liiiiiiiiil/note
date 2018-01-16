@@ -1,0 +1,4 @@
+1.Improving word representations via global context and multiple word prototypes(huang et al,2012),消除歧义.
+2.retraining wordembedding 当数据集小的时候会使结果变差,当数据集大的时候会优化结果.
+3.过拟合的惩罚多项式和0-范数有关.
+

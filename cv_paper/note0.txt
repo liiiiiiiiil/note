@@ -21,3 +21,9 @@
 1)介绍了一个包含8M video 的数据库，提到一个叫做sports-1M的数据库，可以参考一下。
 2)一个骑自行车的视频，如果周围的环境不同，那么它可能是不同的运动，比如山地自行车，比如公路自行车。
 3)这个数数据集合可以
+
+6.Xiaoqiang Lu et al--Exploring Models and Data for remote Sensing Image Caption Generation. 介绍了一个遥感地图的数据集,可以考虑使用.方法还是老方法.
+
+
+
+
