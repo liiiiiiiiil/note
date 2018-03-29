@@ -1,2 +1,4 @@
 可以用activitynet和activity caption
 可以使用文本处理中的处理歧义的方法来试着解决视频中的歧义问题.
+
+把图片中的物体识别处理,然后feed in the decoder,最后生成句子.这里我们可以从图片中的物体识别顺序切入,比如从里到外,或者从上到下,从边缘到中间(来自MAT:A Multimodal Attentive Translator... chang liu et al,page 3)
