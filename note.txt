@@ -10,4 +10,9 @@ Plan,Attend,Generate:Planning for sequence....
 一个叫做plan的机制,通过使用Alignment metrix 和commitment plan vector,解决sequence to sequence问题
 论文附有代码地址,由theano 框架编写.
 
+MAt:a multimodal attentive translator for image caption
+核心创新点是:不使用图像的feature(cnn)作为输入,而是使用detected objects作为输入,从而达到了sequence to sequence的效果.并且使用了基于sequence 的attention机制.
+他的attention机制的特点是使用encoding阶段的hidden states作为y1,y2,y3...而decoding hidden state 作为C.yn和C作为输入,输出Z.
+他的object detector 使用的是R-FCN[Jifeng et al.,2016],最后的结果总体较好,cider得分为1.029,b4得分为0.320
+
 
