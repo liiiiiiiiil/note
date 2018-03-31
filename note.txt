@@ -1,0 +1,13 @@
+3.29*****************
+
+Twin networks:matching the future for ....
+主要提出了一个双向的rnn网络,这个网络的节点可以是lstm或者gru,它主要是为了regularizes the hidden states.他的到灵感的地方是:a.backward hidden states contain a summary of the future of the sequence b.in order to predict the future more accurately,the model will have to form a better representation of the past
+另外,这个模型使用的neuraltalk2的代码,可以借来使用,这个代码是由pytorch写的.
+
+3.31*****************
+
+Plan,Attend,Generate:Planning for sequence....
+一个叫做plan的机制,通过使用Alignment metrix 和commitment plan vector,解决sequence to sequence问题
+论文附有代码地址,由theano 框架编写.
+
+
