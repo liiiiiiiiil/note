@@ -6,13 +6,23 @@ Twin networks:matching the future for ....
 
 3.31*****************
 
-Plan,Attend,Generate:Planning for sequence....
+#Plan,Attend,Generate:Planning for sequence....
 一个叫做plan的机制,通过使用Alignment metrix 和commitment plan vector,解决sequence to sequence问题
 论文附有代码地址,由theano 框架编写.
 
-MAt:a multimodal attentive translator for image caption
+#MAt:a multimodal attentive translator for image caption
 核心创新点是:不使用图像的feature(cnn)作为输入,而是使用detected objects作为输入,从而达到了sequence to sequence的效果.并且使用了基于sequence 的attention机制.
 他的attention机制的特点是使用encoding阶段的hidden states作为y1,y2,y3...而decoding hidden state 作为C.yn和C作为输入,输出Z.
 他的object detector 使用的是R-FCN[Jifeng et al.,2016],最后的结果总体较好,cider得分为1.029,b4得分为0.320
+
+4.1******************
+
+#From Caption to visual concepts and back
+核心要点是先检测图片中的词语,然后合成句子,最后选择句子中最好的一个,关键在于检测词语的阶段,他是直接使用caption来训练的.
+使用这个方法的出发点是因为1:caption中蕴含更具有显著性的信息2:caption中能获得更有常识性的知识.3:能更好评测句子和图片的相似性,从而获取更匹配的caption.
+
+#Improved Image Captioning via Policy.....
+SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了两者,得到一个新的metric:SPIDEr,从而可以兼顾.另外,这篇文章提到scheduled sampling具有statistically问题.
+文章使用了polly gradient方法结合MC rollouts,并且使用cnn-rnn预训练了模型.
 
 
