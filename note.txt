@@ -23,6 +23,20 @@ Twin networks:matching the future for ....
 
 #Improved Image Captioning via Policy.....
 SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了两者,得到一个新的metric:SPIDEr,从而可以兼顾.另外,这篇文章提到scheduled sampling具有statistically问题.
-文章使用了polly gradient方法结合MC rollouts,并且使用cnn-rnn预训练了模型.
+文章使用了polly gradient方法结合MC rollouts,并且使用cnn-rnn预训练了模型.PG training 要比 MLE training 快很多.
+这个论文说明了各个metric之间的线性组合可以得到比较好的结果.
+另外,这篇论文提到一个问题,就是metric分值高并不一定说明更好的caption,可以使用人工测评.
 
+4.2*******************
+
+#SCA-CNN:Spatial and Channel-wise attention in ......
+这篇论文主要提出了一个复合的attention机制,首先从CNN中提取不同的层(其中low level layer主要检测像edge,corner这样的特征,而high level layer主要检测像parts和object这样的特征),其中每层中又有channel-wise attention 和spatial attention,这两个attention结合起来共同作用.
+人眼识别图像并不是一瞬间就看到图像的全部,而是注意到某些区域,因此,attention机制得以成功.
+另外,这篇文章最后通过提问,然后一一解答的方式来展开篇幅,这个可以借鉴过来.
+最后,github上面有代码,搜索sca-cnn.
+
+#Stack-Captioning:coarse-to-fine learning for image captioning
+使用了堆叠的decoder,从而得到refined caption of image,另外,这篇文章使用了PG方法.
+文章中多个decoder堆叠方法值得一看,另外文章提供了代码.
+训练deep network 时候,容易出现gradient vanishing problem,所以这篇文章使用了rl方法,而不是XE方法.
 
