@@ -1,0 +1,7 @@
+4.7
+
+使用sys.insert可以解决import的一些问题
+另外发现了一个中文caption的数据集,在那个ruotianluo的self critic 的issue下,有个人fork了他的仓库,点开那个人就发现了.
+
+4.8
+如果在服务器上使用matplotlib出错,那么就 import matplotlib as mpl   mpl.use('Agg')

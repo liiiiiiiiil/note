@@ -40,3 +40,8 @@ SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了
 文章中多个decoder堆叠方法值得一看,另外文章提供了代码.
 训练deep network 时候,容易出现gradient vanishing problem,所以这篇文章使用了rl方法,而不是XE方法.
 
+4.8******************
+#Bottom-Up and Top-Down Attention for Image Caption.....
+这篇论文的要点在于,他使用的feature是首先用faster r-cnn检测到的object,比起直接平等分得到的feature要好的多,另外,它使用了两层lstm,一层top_down,上面是language lstm,两层中间是attend.第一层的输入是average feature,h2t,and word,输出ht,然后....(看图就行了)
+
+
