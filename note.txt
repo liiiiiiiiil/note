@@ -45,3 +45,11 @@ SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了
 这篇论文的要点在于,他使用的feature是首先用faster r-cnn检测到的object,比起直接平等分得到的feature要好的多,另外,它使用了两层lstm,一层top_down,上面是language lstm,两层中间是attend.第一层的输入是average feature,h2t,and word,输出ht,然后....(看图就行了)
 
 
+4.13*****************
+实验了topdown模型,发现以下问题:1.容易出现误判   2.这个问题比较严重,比如:a clock is on a wall with a clock,这个问题可能是lstm自身的问题,之前的clock 被遗忘了,然后产生新的clock.事实上,a clock is on a wall,和a wall with a clock 都是符合语法语义的句子.  3.忽略性,比如一个盘子装了一块牛排,他直接得到 a plate with food,而忽略了牛排,可能是因为牛排并没有出现过几次把.
+
+4.14****************
+#From captions to visual oncepts and back(the second times)
+这篇论文使用的detecte word 的方法是一个叫做MIL(multiple instance learning)的方法,首先,caption中所用到的词语是有限的,所以1000个词语就占据了90%多....MIL模型我没看懂,也不想看.他可以不用产生bounding boxes 但是也能detect words.
+
+#我突然发现,目前的image caption算法,已经取得非常好的效果了,不好的地方,也只是个别物体检测错误,还有复杂环境下生成caption,另外,还有生成的句子比较简单.  所以这一次尝试过后,如果还没有成果,那么就赶紧放弃,开始做video,这一块的意义更大,虽然各方面难度比较大,但是一定能够克服!
