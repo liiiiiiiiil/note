@@ -53,3 +53,19 @@ SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了
 这篇论文使用的detecte word 的方法是一个叫做MIL(multiple instance learning)的方法,首先,caption中所用到的词语是有限的,所以1000个词语就占据了90%多....MIL模型我没看懂,也不想看.他可以不用产生bounding boxes 但是也能detect words.
 
 #我突然发现,目前的image caption算法,已经取得非常好的效果了,不好的地方,也只是个别物体检测错误,还有复杂环境下生成caption,另外,还有生成的句子比较简单.  所以这一次尝试过后,如果还没有成果,那么就赶紧放弃,开始做video,这一块的意义更大,虽然各方面难度比较大,但是一定能够克服!
+
+
+5.7***************
+#Entity-aware image caption generation
+这篇文章首先通过自己收集的数据,这个数据的caption是template的caption,然后通过tag,结合知识图谱,最后把这些词语填入到template中,可以生成更加细致的caption,比如这样的caption可以包含人名,地名,时间等等.
+
+#Improved image captioning with adversarial semantic alignment
+这篇文章使用的gan和scst的方法,但主要贡献是它生成的caption具有:sematic alignment between image and caption.
+另外,他的 co-attention discriminator 的结构很有意思,可以一看.
+最后,gan结合scst是目前相对来说效果最好的方法了,所以如果要有自己的idea,就得结合这种训练方法.
+
+#object counts!bringing explicit detetions back into image captioning
+这篇文章主要介绍object detection 的重要性,它分别测试了 frequency,distance,size等属性对与结果的影响,可以作为以后的参考,但是最主要的是我们需要记住detection的重要性.
+
+
+

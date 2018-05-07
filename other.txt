@@ -5,3 +5,9 @@
 
 4.8
 如果在服务器上使用matplotlib出错,那么就 import matplotlib as mpl   mpl.use('Agg')
+
+4.15
+torch使用其他gpu:CUDA_VISIBLE_DEVICES=2
+
+5.4
+完成了毕设基本的代码,接下来开始实验,这是个值得纪念的日子
