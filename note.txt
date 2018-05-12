@@ -67,5 +67,8 @@ SPICE主要关注semantic,CIDEr主要关注syntactic,所以这篇文章结合了
 #object counts!bringing explicit detetions back into image captioning
 这篇文章主要介绍object detection 的重要性,它分别测试了 frequency,distance,size等属性对与结果的影响,可以作为以后的参考,但是最主要的是我们需要记住detection的重要性.
 
+5.10**************
+#Learning to guide decoding for image captioning
+image caption 的一个问题就是在训练时候的decode过程,产生句子的时候,每个句子的产生是同事需要以来caption 还有 image的,但是在这种情况下很难保持他们的平衡,从而导致某个元素影响过于大的情况,我之前想法是可以使用object detection 去critic ,但是这里给了我一个思路,从新构造一个guide network,去guide整个decode过程.这个guide network 是一个神经网络,但是细节可以随时来查.
 
 
