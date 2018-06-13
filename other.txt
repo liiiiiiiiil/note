@@ -16,4 +16,6 @@ torch 的unsequence的作用相当于增加一个维度,比如unsequence(1)
 torch.bmm(batch1,batch2)作用就是把两个三维的tensor矩阵相乘,比如BxNxM,BxMxP,得到BxNxP
 在使用dict的时候,能不使用dict['key']就不使用,尽量用get方法,因为当其不存在时,还可以设置缺省值,从而避免低级错误
 
+测试
+
 
